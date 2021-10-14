@@ -1,15 +1,15 @@
 function convertIntoTime(number){
     
-    var hours = 0;
+    let hours = 0;
     while(number > 60)
     {
         number -= 60;
         hours++;
     }
-    var minutes = number;
+    let minutes = number;
 
-    var minuteToken;
-    var hourToken;
+    let minuteToken;
+    let hourToken;
 
     if(minutes === 1){
         minuteToken = "minute";

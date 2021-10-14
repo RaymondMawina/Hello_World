@@ -1,14 +1,14 @@
 function vowelPrinter(string){
     // result = "Vowels:";
-    var vowels = [];
+    let vowels = [];
 
-    var aExists = false;
-    var eExists = false;
-    var iExists = false;
-    var oExists = false;
-    var uExists = false;
+    let aExists = false;
+    let eExists = false;
+    let iExists = false;
+    let oExists = false;
+    let uExists = false;
 
-    for(var index=0; index<string.length; index++){
+    for(let index=0; index<string.length; index++){
          if(aExists === false && (string.charAt(index) === 'A' || string.charAt(index) === 'a')){
             vowels.push(string.charAt(index));
             aExists = true;
@@ -31,8 +31,8 @@ function vowelPrinter(string){
          }
     }
 
-    var output = "Vowels: ";
-    for(var index=0; index<vowels.length; index++){
+    let output = "Vowels: ";
+    for(let index=0; index<vowels.length; index++){
         if(index === 0)
         {
             output += " " + vowels[index].toLowerCase();
@@ -42,10 +42,10 @@ function vowelPrinter(string){
         }
     }
 
-    return output;
+    console.log(output);
 }
 
-console.log(vowelPrinter("Umuzi"));
+vowelPrinter("Umuzi");
 
 
 

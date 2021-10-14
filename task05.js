@@ -1,5 +1,5 @@
 function calculateArea(sideA,sideB,sideC){
-    var semiPerimeter = 0.5*(sideA + sideB + sideC);
+    let semiPerimeter = 0.5*(sideA + sideB + sideC);
     return Math.sqrt(semiPerimeter*(semiPerimeter-sideA)*(semiPerimeter-sideB)*(semiPerimeter-sideC));
 }
 

@@ -1,10 +1,10 @@
 function calsiusToFahrenheit(calsius){
-    var fahrenheit = (9/5)*calsius + 32;
+    let fahrenheit = (9/5)*calsius + 32;
     return fahrenheit;
 }
 
 function fahrenheitToCalsius(fahrenheit){
-    var calsius = (fahrenheit - 32)*(5/9);
+    let calsius = (fahrenheit - 32)*(5/9);
     return calsius;
 }
 
